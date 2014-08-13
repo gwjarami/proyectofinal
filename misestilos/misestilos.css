@@ -22,25 +22,33 @@ background: black;
 #cabecera {
 background: black;
 border: 0px solid #999999;
-padding: 20px;
+padding: 0px;
 text-align : center;
+position: relative;
+ z-index: 2; 
 }
 
 #paginas {
 background: black;
 padding: 1px 15px;
 text-align: right;
+position: relative;
+ z-index: 2; 
 }
+
 #paginas li {
 display: inline-block;
 list-style: none;
 padding: 1px;
+position: relative;
 }
+
 #paginas2 {
 background: black;
 padding: 1px 15px;
 text-align: center;
 }
+
 #paginas2 li {
 display: inline-block;
 list-style: none;
@@ -101,7 +109,7 @@ padding: 1px;
    }
 
 #pie{
-   width:960px
+   width:960px;
    background: black;
    text-align: center;
 }
