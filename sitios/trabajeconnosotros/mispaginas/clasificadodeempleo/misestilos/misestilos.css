@@ -80,6 +80,7 @@ padding: 1px;
 	font-size:px;
 	color:black;
 	text-align:center;
+	text-decoration:none;
 	margin-right:0px;
 	padding-top:40px;
 	padding: 10px 0px;	
@@ -110,5 +111,94 @@ padding: 1px;
    text-align: center;
 }
    
-
+.panelprincipal{
+   width:960px;
+   height:350px;
+   background:black;
+   display:flex;
    
+}
+
+.panelsecundario1>a{
+   color:red;
+   font-size: 20px;
+   padding: 30px;
+   text-decoration:none;
+}
+
+.panelsecundario1{
+   width:250px;
+   height:330px;
+   background:white;
+   border-left: 20px solid #000000;
+   border-right: 1px solid black;
+}
+
+.panelsecundario2{
+   width:660px;
+   height:330px;
+   background:white;
+}
+
+.texto2{
+   color:red;
+   font-size:40px;
+}
+
+#texto3{
+   background:red;
+   color:white;
+   font-size:20px;
+   padding:10px 150px 10px 5px;
+  
+}
+#texto4{
+   background:red;
+   color:white;
+   font-size:20px;
+   padding:10px 75px 10px 5px;
+   
+}
+#texto5{
+   background:white;
+   color:black;
+   font-size:17px;
+   padding:10px 125px 10px 0px;
+ 
+}
+
+#texto6{
+   background:white;
+   color:black;
+   font-size:17px;
+   padding:10px 117px 10px 5px;
+  
+}
+
+.formulario1{
+   background: #B3A0A0;
+   padding: 0px 10px 0px 20px;
+   width: 620px;
+   border-radius:20px:
+}
+
+ .formulario2{
+   background: #B3A0A0;
+   padding: 10px 10px 10px 20px;
+   width: 620px;
+   border-radius:20px:
+} 
+  
+.formulario3{
+   background: #B3A0A0;
+   padding: 10px 10px 10px 20px;
+   width: 620px;
+   border-radius:20px:
+}   
+
+.boton{
+   
+   padding: 20px 10px 10px 300px;
+   width: 620px;
+   border-radius:20px:
+}   

@@ -13,54 +13,62 @@ text-align: center;
 }
 
 #agrupar {
-width: 960px;
+width: 71.5%;
 margin: 15px auto;
 text-align: left;
 background: black;
 }
 
+#body{
+width:100%;
+}
+
 #cabecera {
 background: black;
 border: 0px solid #999999;
-padding: 20px;
+padding: 0px;
 text-align : center;
 position: relative;
-z-index:2;
+ z-index: 2; 
+ width:100%;
+ 
 }
 
 #paginas {
+width:100%;
 background: black;
-padding: 1px 15px;
+padding: 0.104166% 0px;
 text-align: right;
 position: relative;
-z-index:2;
+ z-index: 2; 
 }
+
 #paginas li {
 display: inline-block;
 list-style: none;
-padding: 1px;
+padding: 0.104166%;
+position: relative;
 }
+
 #paginas2 {
+width:100%;
 background: black;
-padding: 1px 15px;
+padding: 0.104166% 0x;
 text-align: center;
 }
+
 #paginas2 li {
 display: inline-block;
 list-style: none;
-padding: 1px;
+padding: 0.104166%;
 }
 
 #menu {
-    width: 960px;
-	padding-left:20px;
+    width:100%;
+	padding-left:2.0833333%;
     background: black;
     padding: 0px 0px;
     text-align: center;
-}
-
-#menu lu{
-
 }
 
 #menu li{
@@ -80,6 +88,7 @@ padding: 1px;
 	font-size:px;
 	color:black;
 	text-align:center;
+	text-decoration:none;
 	margin-right:0px;
 	padding-top:40px;
 	padding: 10px 0px;	
@@ -93,10 +102,9 @@ padding: 1px;
 }
 
 #img {
-  width: 317px;
-  height: 200px;
-  border: 2px black;
-  padding: 10px 0px;
+  width: 33.02083333% ;
+  height: 20.8333333% auto;
+  
 }
 
 #titulo{
@@ -105,10 +113,65 @@ padding: 1px;
    }
 
 #pie{
-   width:960px
+   width:100%;
    background: black;
    text-align: center;
 }
+
+#section{
+   width:100%;
+}
+
+#footer{
+   width:100%;
+}
+
+#article{
+    width:100%;
+}
    
 
-   
+/* Laptop/Tablet (1024px) */
+@media only screen and (min-width: 481px) and (max-width: 1024px) and (orientation: landscape) {
+	#agrupar{ width:100%}
+	#body{ width:100%}
+	#section{width:100%}
+	#footer{width:100%}
+	#article{width:100%}
+}
+
+/* Tablet Portrait (768px) */
+@media only screen and (min-width: 321px) and (max-width: 1024px) and (orientation: portrait) {
+	#agrupar{ width:100%}
+	#body{ width:100%}
+	#section{width:100%}
+	#footer{width:100%}
+	#article{width:100%}
+	#img{width:32.0000%}
+	#menu{width:100%}
+}
+
+/* Phone Landscape (480px) */
+@media only screen and (min-width: 321px) and (max-width: 480px) and (orientation: landscape) {
+	#agrupar{ width:100%}
+	#body{ width:100%}
+	#section{width:100%}
+	#footer{width:100%}
+	#article{width:100%}
+	#img{width:32.0000%}
+	#menu{width:100%}
+}
+
+/* Phone Portrait (320px) */
+@media only screen and (max-width: 320px) {
+	#agrupar{ width:100%}
+	#body{ width:100%}
+	#section{width:100%}
+	#footer{width:100%}
+	#article{width:100%}
+	#img{width:32.0000%}
+	#menu{width:100%}
+	
+}
+
+
