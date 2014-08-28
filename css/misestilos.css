@@ -202,7 +202,7 @@ hgroup{
 	height: auto;
 }
 #menu .nav {
-	width: 100%;
+	width: 97.5%;
 	height: auto;
 	list-style-type: none;
 	border: 15px solid #F678CA;
@@ -226,11 +226,12 @@ hgroup{
 	padding-right: 15px;
 	padding-top: 15px;
 	padding-bottom: 15px;
+	font-size: 100%;
 }
 .nav li a:hover {
 	text-shadow: 0 0 1px brown;
-	background-color: #FFFFFF;
-	color: #000000;
+	background-color:#F678CA;
+	color:#FFFFFF;
 }
 #article1 {
 	width: 100%;
@@ -243,7 +244,7 @@ hgroup{
 	text-align: center;
 }
 #article3 figure img {
-	width: 24%;
+	width: 23%;
 	height: auto;
 }
 #article1 h5 {
@@ -533,51 +534,51 @@ hgroup{
 	display: inline-block;
 }
 #img {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img1 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img2 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img3 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img4 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img5 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img6 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img7 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img8 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img9 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img10 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img11 {
-	width: 33%;
+	width: 32%;
 	height: auto;
 }
 #img:hover{
@@ -717,4 +718,18 @@ hgroup{
 #tabla{
     border:1px;
 	width:90%;
+}
+#texto105 {
+	width: 100%;
+	height: auto;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-style: normal;
+	text-align: center;
+	font-size: 200%;
+	text-decoration: none;
+}
+#article100 {
+	width: 100%;
+	height: auto;
+	display: inline-block;
 }
