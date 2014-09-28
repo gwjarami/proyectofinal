@@ -1,0 +1,261 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>registrar datos en el sistema</title>
+<link href="../../../css/misestilos.css" rel="stylesheet" type="text/css">
+</head>
+
+<body id="body">
+   <div id="agrupar">
+      <header id="cabecera">
+         <div id="logo">
+         <figure>
+             <a href="../../inicio.html"><img  alt="logo" title="logo" src="../../../images/logojeison.png"></a>
+         </figure>
+         </div>
+         <div id="redes">
+             <figure>
+               <a href="#"><img alt="facebook" title="facebok" src="../../../images/facebook.png"></a>
+                <a href="#"><img alt="twitter" title="twitter" src="../../../images/twitter.png"></a>
+                <a href="#"><img alt="youtube" title="youtube" src="../../../images/youtube.png"></a>
+                <a href="#"><img alt="blog" title="blog" src="../../../images/blog.png"></a>
+                <a href="#"><img alt="correo" title="correo" src="../../../images/correo.png"></a>
+                <a href="#"><img alt="yahoo" title="yahoo" src="../../../images/yahoo.png"></a>
+             </figure>
+         </div>
+      </header> 
+      <div class="nav" id="menu">
+            <ul class="nav">
+            <li> <a href="../../productos/productos.html">productos</a></li>
+            <li> <a href="../../nosotros/nosotros.html">nosotros</a></li>
+            <li><a href="../trabajeconnosotros.html"> trabaje con nosotros</a></li>
+            <li> <a href="../../contactenos/contactenos.html">contactenos</a></li>
+         </ul>
+         </div>
+      <section id="section">
+         <article id="articlea">
+             <figure>
+                 <img alt="ab" title="ab" src="../../../images/ab.jpg" >
+             </figure>
+         </article>
+         <article id="articleb">
+             <div id="wowslider-container1">
+	             <div class="ws_images">
+				    <ul>
+					   <li><img src="../../../images/slide4.png" alt="Koala" title="Koala" id="wows1_3"/></li>
+                       <li><img src="../../../images/slide1.png" alt="Penguins" title="Penguins" id="wows1_0"/></li>
+                       <li><img src="../../../images/slide2.png" alt="Jellyfish" title="Jellyfish" id="wows1_1"/></li>
+                       <li><img src="../../../images/slide3.png" alt="Koala" title="Koala" id="wows1_2"/></li>
+                    </ul>
+			     </div>
+	          </div>	
+         </article>
+         <article id="article1">
+            <h2> Algunos de nuestros productos </h2>
+         </article>
+         <article id="article3">
+            <figure>
+              <img alt="blt-15" title="blt-15" src="../../../images/blt-15.jpg">
+               <img alt="blt-16" title="blt-16" src="../../../images/blt-16.jpg">
+               <img alt="blt-1" title="blt-1" src="../../../images/skp-1.jpg">
+               <img alt="blt-4" title="blt-4" src="../../../images/skp-4.jpg">
+            </figure>
+         </article>
+         <article id="article7">
+            <div id="panelprincipalregistrarse">
+                <div id="panelsecundario1registrarse">
+                  <br><a  href="../ingresar/ingresar.html"> &nbsp;&nbsp;&nbsp;Ingresar </a><br><br>
+				 <a  href="#"> &nbsp;&nbsp;&nbsp;Registrate </a><br><br>
+				 <a  href="../clasificaciondeempleo/clasificaciondeempleo.html"> &nbsp;&nbsp;&nbsp;Clasificacion de Empleo </a>
+               </div>
+               <div id="panelsecundario2registrarse">
+                  <div class="formulario1"><br>
+                    <p class="texto2"> Datos personales </p>
+                 <hr><br><br>
+                    <form name="datospersonales1" method="post" action="file.php">
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > usuario: </label>
+					   <input type="text" name="usuario" > 
+					   <label > minimo 8 caracteres </label><br>
+					   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > contraseña: </label>
+					   <input type="text" name="contraseña" >
+					   <label > minimo 8 caracteres </label><br>
+					   <label > repetir contraseña: </label>
+					   <input type="text" name="repetircontraseña" ><br><br>
+					</form>
+                 </div>
+                 <br><br>
+                  <div class="formulario2">
+                    <form name="datospersonales1" method="post" action="file.php">
+					   <label > nombre: </label>
+					   <input type="text" name="nombre" ><br>
+					   <label > apellido: </label>
+					   <input type="text" name="apellido" ><br>
+					   &nbsp;<label > cedula: </label>
+					   <input type="text" name="cedula" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					   <label > sexo: </label>&nbsp;&nbsp;&nbsp;
+					   <label > masculino: </label>
+					   <input type="radio" name="opcion1" value="1">&nbsp;&nbsp;&nbsp;
+					   <label > femenina: </label>
+					   <input type="radio" name="opcion2" value="2"><br>
+					   <label > pose discapacidad: </label>&nbsp;&nbsp;&nbsp;
+					   <label > si: </label>
+					   <input type="radio" name="opcion1" value="1">&nbsp;&nbsp;&nbsp;
+					   <label > no: </label>
+					   <input type="radio" name="opcion2" value="2"><br>
+					   <label > describa su capacidad: </label>
+					   <textarea name="discapacidad" rows="5" cols="30"></textarea>
+					</form>
+                 </div>
+                 <br><br>
+                 <div class="formulario3">
+                    <form name="datospersonales" method="post" action="file.php">
+                    <label > fecha de nacimiento: </label>
+					<select name="dia">
+					   <option value="1"> 1 </option>
+					   <option value="2"> 2 </option>
+					   <option value="3"> 3 </option>
+					   <option value="4"> 4 </option>
+					   <option value="5"> 5 </option>
+					   <option value="6"> 6 </option>
+					   <option value="7"> 7 </option>
+					   <option value="8"> 8 </option>
+					   <option value="9"> 9 </option>
+					   <option value="10"> 10 </option>
+					   <option value="11"> 11 </option>
+					   <option value="12"> 12 </option>
+					   <option value="13"> 13 </option>
+					   <option value="14"> 14 </option>
+					   <option value="15"> 15 </option>
+					   <option value="16"> 16 </option>
+					   <option value="17"> 17 </option>
+					   <option value="18"> 18 </option>
+					   <option value="19"> 19 </option>
+					   <option value="20"> 20 </option>
+					   <option value="21"> 21 </option>
+					   <option value="22"> 22 </option>
+					   <option value="23"> 23 </option>
+					   <option value="24"> 24 </option>
+					   <option value="25"> 25 </option>
+					   <option value="26"> 26 </option>
+					   <option value="27"> 27 </option>
+					   <option value="28"> 28 </option>
+					   <option value="29"> 29 </option>
+					   <option value="30"> 30 </option>
+					   <option value="31"> 31 </option>
+					</select>
+					<select name="mes">
+					   <option value="1"> enero </option>
+					   <option value="2"> febrero </option>
+					   <option value="3"> marzo </option>
+					   <option value="4"> abril </option>
+					   <option value="5"> mayo </option>
+					   <option value="6"> junio </option>
+					   <option value="7"> julio </option>
+					   <option value="8"> agosto </option>
+					   <option value="9"> septiembre </option>
+					   <option value="10"> octubre </option>
+					   <option value="11"> noviembre </option>
+					   <option value="12"> diciembre </option>
+					</select>
+					<select name="año">
+					   <option value="1"> 2014 </option>
+					   <option value="2"> 2013 </option>
+					   <option value="3"> 2012 </option>
+					   <option value="4"> 2011 </option>
+					   <option value="5"> 2010 </option>
+					   <option value="6"> 2009 </option>
+					   <option value="7"> 2008 </option>
+					   <option value="8"> 2007 </option>
+					   <option value="9"> 2006 </option>
+					   <option value="10"> 2005 </option>
+					   <option value="11"> 2004 </option>
+					   <option value="12"> 2003 </option>
+					   <option value="13"> 2002 </option>
+					   <option value="14"> 2001 </option>
+					   <option value="15"> 2000 </option>
+					   <option value="16"> 1999 </option>
+					   <option value="17"> 1998 </option>
+					   <option value="18"> 1997 </option>
+					   <option value="19"> 1996 </option>
+					   <option value="20"> 1995 </option>
+					   <option value="21"> 1994 </option>
+					   <option value="22"> 1993 </option>
+					   <option value="23"> 1992 </option>
+					   <option value="24"> 1991 </option>
+					   <option value="25"> 1990 </option>
+					   <option value="26"> 1989 </option>
+					   <option value="27"> 1988 </option>
+					   <option value="28"> 1987 </option>
+					   <option value="29"> 1986 </option>
+					   <option value="30"> 1985 </option>
+					   <option value="31"> 1984 </option>
+				    </select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > nacionalidad: </label>
+					<input type="text" name="nacionalidad" > <br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > estado civil: </label>
+					<select name="estado">
+					   <option value="1"> soltero </option>
+					   <option value="2"> casado </option>
+					   <option value="3"> viudo </option>
+					   <option value="4"> unido </option>
+					   <option value="5"> arrimado </option>
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > hijos: </label>
+					<select name="estado">
+					   <option value="1"> 1 </option>
+					   <option value="2"> 2 </option>
+					   <option value="3"> 3 </option>
+					   <option value="4"> 4 </option>
+					   <option value="5"> 5 </option>
+					   <option value="6"> 7 </option>
+					   <option value="7"> 7 </option>
+					</select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > direccion: </label>
+					<input type="text" name="direccion" >
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > sector: </label>
+					<input type="text" name="sector" ><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > ciudad: </label>
+					<select name="estado">
+					   <option value="1"> Guayaquil </option>
+					   <option value="2"> Quito </option>
+					   <option value="3"> Ambato </option>
+					   <option value="4"> Cuenca </option>
+					   <option value="5"> Playas </option>
+					</select>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > provincia: </label>
+					<select name="estado">
+					   <option value="1"> Guayas </option>
+					   <option value="2"> Pichincha </option>
+					   <option value="3"> El oro </option>
+					   <option value="4"> Los rios </option>
+					   <option value="5"> Esmeraldas </option>
+					</select><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > telefono: </label>
+					<input type="text" name="telefono">
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > celular: </label>
+					<input type="text" name="celular"><br>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<label > email: </label>
+					<input type="text" name="email">
+				  </form>
+                 </div>	<br><br>
+                 <div id="panelsecundario2contacto3">
+                     <button type="button">Guardar</button>
+                  </div>
+               </div> 
+            </div>
+         </article>
+      </section>
+      
+      <footer id="footer">
+          <div id="pie">
+		          <p id="titulo"> © Copyright ImporLofer.hol.es  <br>
+			      Todos los derechos reservados el logo y el nombre son marcas registradas <br>
+                  Calle Las Almedras 219 Int. 101-B Urb. Monterrico La Molina Guayaquil-Ecuador <br>
+                  Telfs. 0947289004<br>
+                  contacto:gwjarami@espol.edu.ec </p>
+			  </div>
+      </footer>
+   </div>
+</body>
+</html>
